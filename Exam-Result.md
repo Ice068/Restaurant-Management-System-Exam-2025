@@ -439,7 +439,9 @@ Build Command:  npm run build
 **Production Smoke Test ผ่าน: 4/ 4 รายการ**
 
 > 📸 (วางภาพหน้าจอหลักฐานแต่ละ Feature)
-
+![alt text](image-6.png)!
+[alt text](image-3.png)![alt text]
+(image-4.png)![alt text](image-5.png)
 ---
 
 ## CI/CD Pipeline + Newman Pass Rate
@@ -458,14 +460,14 @@ Build Command:  npm run build
 
 | Metric          | ค่า    |
 |-----------------|--------|
-| Total Tests     | ??     |
-| Tests Passed    | ??     |
-| Tests Failed    | ??     |
-| **Pass Rate**   | **??%** |
+| Total Tests     | 21     |
+| Tests Passed    | 19     |
+| Tests Failed    | 1     |
+| **Pass Rate**   | **85.71%** |
 
 > 📸 **ภาพหน้าจอ GitHub Actions Pipeline สำเร็จ**
 >
-> (วางภาพที่นี่)
+> (![alt text](image-7.png))
 
 ---
 

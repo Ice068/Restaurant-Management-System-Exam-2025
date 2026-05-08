@@ -105,13 +105,13 @@ Total: 21  |  Passed: 19  |  Failed: 1  |  Pass Rate: 85.71%%
 
 | TC-ID | Feature | Scenario | Expected | Actual | Pass/Fail |
 |-------|---------|----------|----------|--------|-----------|
-| TC-002 | Auth | Admin login | 200 + JWT | | |
-| TC-005 | Auth | Wrong password | 401 | | |
-| TC-007 | Security | No token | 401 | | |
-| TC-010 | Security | SQL Injection | Empty/400 | | |
-| TC-011 | Security | Waiter update price | 403 | | |
-| TC-015 | Order | Double booking | 409 | | |
-| TC-020 | Payment | Underpayment | 400 | | |
+| TC-002 | Auth | Admin login | 200 + JWT | 200 + JWT | Pass |
+| TC-005 | Auth | Wrong password | 401 | 401 | Pass |
+| TC-007 | Security | No token | 401 | Pass | Pass |
+| TC-010 | Security | SQL Injection | Empty/400 | 200 + SQL injection possible | Fail |
+| TC-011 | Security | Waiter update price | 403 | 200(price changed) | Fail |
+| TC-015 | Order | Double booking | 409 | 201(duplicate order allowed) | Fail |
+| TC-020 | Payment | Underpayment | 400 | 201/negative chage allowed | Fail |
 
 ---
 
